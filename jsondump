@@ -1,0 +1,95 @@
+[
+  {
+    "step": 1,
+    "animation": "define_circle()",
+    "animation_description": "Display the circle on the screen.",
+    "text_placement": "No accompanying text for this step.",
+    "text_value": "",
+    "state_elements": [
+      "circle"
+    ]
+  },
+  {
+    "step": 2,
+    "animation": "understand_components()",
+    "animation_description": "Add a center point and a radius line extending from the center to the circle's circumference.",
+    "text_placement": "Place the text at the bottom left corner of the screen using `to_corner(DOWN + LEFT)`.",
+    "text_value": "To understand a circle, we need to know its key components. The center of the circle is a fixed point from which all points on the circle are equidistant. The radius is the distance from the center to any point on the circle.",
+    "state_elements": [
+      "circle",
+      "center_point",
+      "radius_line"
+    ]
+  },
+  {
+    "step": 3,
+    "animation": "define_area()",
+    "animation_description": "Create an area with transparency to represent the enclosed space within the circle.",
+    "text_placement": "Align the text at the bottom left corner of the screen.",
+    "text_value": "In geometry, the area refers to the measure of the size of a two-dimensional surface or region. When it comes to a circle, we're interested in finding its area.",
+    "state_elements": [
+      "circle",
+      "area"
+    ]
+  },
+  {
+    "step": 4,
+    "animation": "introduce_formula()",
+    "animation_description": "Display the formula 'A = π r^2' on the screen.",
+    "text_placement": "Position the text at the bottom left corner of the screen.",
+    "text_value": "To calculate the area of a circle, we use a simple formula. The formula is A equals π r squared. 'A' represents the area, 'r' is the radius of the circle, and π (pi) is a mathematical constant approximately equal to 3.14159.",
+    "state_elements": [
+      "circle",
+      "formula"
+    ]
+  },
+  {
+    "step": 5,
+    "animation": "explain_formula()",
+    "animation_description": "Add a radius line, a label for the radius, the squared radius, and the pi symbol.",
+    "text_placement": "Align the text at the bottom left corner of the screen.",
+    "text_value": "Let's break down the formula. When we say 'r squared,' it means multiplying the radius by itself. So, we take the radius and multiply it by itself. After that, we multiply the squared radius by π to find the area of the circle.",
+    "state_elements": [
+      "circle",
+      "radius_line",
+      "radius_label",
+      "squared_radius",
+      "pi_symbol"
+    ]
+  },
+  {
+    "step": 6,
+    "animation": "provide_example()",
+    "animation_description": "Show a radius line, a label for the radius, and the area formula for a specific example (r = 5).",
+    "text_placement": "Place the text at the bottom left corner of the screen.",
+    "text_value": "Let's see an example to understand better. Suppose we have a circle with a radius of 5 units. By applying the formula A equals π r squared, we can calculate the area step by step.",
+    "state_elements": [
+      "circle",
+      "radius_line",
+      "radius_label",
+      "area_formula"
+    ]
+  },
+  {
+    "step": 7,
+    "animation": "discuss_units()",
+    "animation_description": "Display text explaining the units of measurement.",
+    "text_placement": "Position the text at the bottom left corner of the screen.",
+    "text_value": "When calculating the area, consider the units of measurement.",
+    "state_elements": [
+      "circle",
+      "units_text"
+    ]
+  },
+  {
+    "step": 8,
+    "animation": "approximate_values()",
+    "animation_description": "Show text with an approximate value for pi (π ≈ 3.14).",
+    "text_placement": "Align the text at the bottom left corner of the screen.",
+    "text_value": "Remember that π is an irrational number and cannot be expressed exactly. Approximate values like 3.14 or 3.14159 are commonly used.",
+    "state_elements": [
+      "circle",
+      "pi_approximation"
+    ]
+  }
+]
